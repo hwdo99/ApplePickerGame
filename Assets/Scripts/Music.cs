@@ -1,18 +1,19 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class Music : MonoBehaviour
 {
-    private AudioSource audioSource;
+    public static AudioSource MusicSource;
     private void Start()
     {
         DontDestroyOnLoad(transform.gameObject);
-        audioSource = GetComponent<AudioSource>();
+        MusicSource = GetComponent<AudioSource>();
     }
 
     public void StopMusic()
     {
-        audioSource.Stop();
+        MusicSource.Stop();
     }
 }

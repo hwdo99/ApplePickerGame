@@ -25,7 +25,7 @@ public class FloorScript : MonoBehaviour
         {
             Destroy(collidedWith);
             LivesScript.lives -= 1;
-            sound.Play();
+            SFX.SFXSource.Play();
         }
     }
 }
