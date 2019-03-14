@@ -7,8 +7,6 @@ public class BasketMovementKeys : MonoBehaviour
 {
     private float speed = 800f;
     Vector3 startPosition = new Vector3(0f, -425f, 0f);
-    private float leftEdge = -750f;
-    private float rightEdge = 740f;
     public float x;
     public bool startGame;
     private bool mouseMove = false;

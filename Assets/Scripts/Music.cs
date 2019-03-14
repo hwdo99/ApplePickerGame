@@ -1,37 +1,21 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.UI;
 
 public class Music : MonoBehaviour
 {
-    public Slider MusicSlider;
     public static AudioSource MusicSource;
-    private float musicVolume = 0.5f;
-    private void Start()
+    public static float musicVolume;
+
+    private void Awake()
     {
         DontDestroyOnLoad(transform.gameObject);
         MusicSource = GetComponent<AudioSource>();
-        MusicSlider.value = PlayerPrefs.GetFloat("Music volume");
-    }
-    public void Update()
-    {
-        MusicSource.volume = musicVolume;
-    }
-
-    public void OnSliderChange(float volume)
-    {
-        musicVolume = volume;
-        PlayerPrefs.SetFloat("Music volume", volume);
-    }
-
-    public void Mute()
-    {
-        AudioListener.pause = !AudioListener.pause;
-    }
-
-    public void StopMusic()
-    {
-        MusicSource.Stop();
+        musicVolume = 0.5f;
+        if (!PlayerPrefs.HasKey("Music"))
+        {
+            PlayerPrefs.SetFloat("Music", musicVolume); // If it’s not, then save one
+        }
+        MusicSource.volume = PlayerPrefs.GetFloat("Music");
     }
 }
