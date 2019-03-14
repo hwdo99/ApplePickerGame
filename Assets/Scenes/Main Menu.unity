@@ -149,7 +149,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.43445837, y: 0.14640743}
   m_AnchorMax: {x: 0.56383336, y: 0.26500002}
-  m_AnchoredPosition: {x: -1.050003, y: 1.1499939}
+  m_AnchoredPosition: {x: -1.050003, y: 1.1499634}
   m_SizeDelta: {x: -2.100006, y: -2.300003}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &18346182
@@ -815,6 +815,7 @@ GameObject:
   m_Component:
   - component: {fileID: 930807750}
   - component: {fileID: 930807751}
+  - component: {fileID: 930807752}
   m_Layer: 0
   m_Name: SFX
   m_TagString: Untagged
@@ -932,6 +933,19 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &930807752
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 930807749}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9980bd56104c38347842ba35393422db, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  SFXslider: {fileID: 0}
 --- !u!1 &950148880
 GameObject:
   m_ObjectHideFlags: 0
