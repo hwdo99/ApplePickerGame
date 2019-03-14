@@ -33,13 +33,14 @@ public class PauseMenu : MonoBehaviour
         
     }
 
+    
     public void ResumeGame()
     {
         Time.timeScale = 1;
         gameIsPaused = false;
         SceneManager.UnloadSceneAsync(4);
     }
-
+    
     public void PauseGame()
     {
         Time.timeScale = 0;

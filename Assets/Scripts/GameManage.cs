@@ -39,4 +39,14 @@ public class GameManage : MonoBehaviour
         SceneManager.LoadScene(0);
     }
 
+    public void BackToPauseMenu()
+    {
+        SceneManager.UnloadSceneAsync(5);
+    }
+
+    public void ToOptionsMenu()
+    {
+        SceneManager.LoadScene(5, LoadSceneMode.Additive);
+        //SceneManager.LoadScene(5);
+    }
 }
