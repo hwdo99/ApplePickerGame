@@ -36,15 +36,23 @@ public class PauseMenu : MonoBehaviour
     
     public void ResumeGame()
     {
-        Time.timeScale = 1;
-        gameIsPaused = false;
-        SceneManager.UnloadSceneAsync(4);
+        int currentSceneIndex = SceneManager.GetActiveScene().buildIndex;
+        if (currentSceneIndex == 4)
+        {
+            Time.timeScale = 1;
+            gameIsPaused = false;
+            SceneManager.UnloadSceneAsync(4);
+        }
     }
     
     public void PauseGame()
     {
-        Time.timeScale = 0;
-        gameIsPaused = true;
-        SceneManager.LoadScene(4, LoadSceneMode.Additive);
+        int currentSceneIndex = SceneManager.GetActiveScene().buildIndex;
+        if (currentSceneIndex == 1)
+        {
+            Time.timeScale = 0;
+            gameIsPaused = true;
+            SceneManager.LoadScene(4, LoadSceneMode.Additive);
+        }
     }
 }
