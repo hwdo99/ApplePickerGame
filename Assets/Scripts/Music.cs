@@ -11,9 +11,9 @@ public class Music : MonoBehaviour
     {
         DontDestroyOnLoad(transform.gameObject);
         MusicSource = GetComponent<AudioSource>();
-        musicVolume = 0.5f;
         if (!PlayerPrefs.HasKey("Music"))
         {
+            musicVolume = 0.5f;
             PlayerPrefs.SetFloat("Music", musicVolume); // If it’s not, then save one
         }
         MusicSource.volume = PlayerPrefs.GetFloat("Music");

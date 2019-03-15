@@ -213,10 +213,10 @@ RectTransform:
   m_Father: {fileID: 720018990}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.32339585, y: 0.4306667}
-  m_AnchorMax: {x: 0.6704792, y: 0.5833334}
-  m_AnchoredPosition: {x: 4.5, y: 1.0249634}
-  m_SizeDelta: {x: 8.200001, y: -1.8999939}
+  m_AnchorMin: {x: 0.36900002, y: 0.4306667}
+  m_AnchorMax: {x: 0.63110423, y: 0.5833334}
+  m_AnchoredPosition: {x: -0.11999512, y: 1.0299988}
+  m_SizeDelta: {x: -1.699997, y: -1.9}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!82 &119961235
 AudioSource:
@@ -335,7 +335,7 @@ MonoBehaviour:
   m_Transition: 1
   m_Colors:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 0}
-    m_HighlightedColor: {r: 0, g: 0, b: 0, a: 1}
+    m_HighlightedColor: {r: 0.7372549, g: 0.7372549, b: 0.7372549, a: 1}
     m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
     m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
     m_ColorMultiplier: 1
@@ -627,7 +627,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: 21300000, guid: 0d82aa85732b5ec4aaacc5260ad17402, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -679,10 +679,10 @@ RectTransform:
   m_Father: {fileID: 720018990}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.32339585, y: 0.4306667}
-  m_AnchorMax: {x: 0.6704792, y: 0.5833334}
-  m_AnchoredPosition: {x: 5.880005, y: 164.00494}
-  m_SizeDelta: {x: 8.200073, y: -1.8999939}
+  m_AnchorMin: {x: 0.38777086, y: 0.57600003}
+  m_AnchorMax: {x: 0.61077076, y: 0.7342593}
+  m_AnchoredPosition: {x: 0.8800049, y: 4.0099945}
+  m_SizeDelta: {x: 2.699997, y: -7.899994}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!82 &824126601
 AudioSource:
@@ -801,7 +801,7 @@ MonoBehaviour:
   m_Transition: 1
   m_Colors:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 0}
-    m_HighlightedColor: {r: 0, g: 0, b: 0, a: 1}
+    m_HighlightedColor: {r: 0.7372549, g: 0.7372549, b: 0.7372549, a: 1}
     m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
     m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
     m_ColorMultiplier: 1
@@ -931,7 +931,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.754717, g: 0.754717, b: 0.754717, a: 1}
+  m_Color: {r: 0, g: 0, b: 0, a: 1}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -1010,7 +1010,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.754717, g: 0.754717, b: 0.754717, a: 1}
+  m_Color: {r: 0, g: 0, b: 0, a: 1}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -1190,9 +1190,9 @@ RectTransform:
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.43445837, y: 0.17233333}
-  m_AnchorMax: {x: 0.56235415, y: 0.289}
-  m_AnchoredPosition: {x: -2.8199005, y: 4.1749573}
-  m_SizeDelta: {x: 0.8999939, y: -0.30000305}
+  m_AnchorMax: {x: 0.56243753, y: 0.28248152}
+  m_AnchoredPosition: {x: -2.8199005, y: 1.6425171}
+  m_SizeDelta: {x: 0.9000001, y: -5.365}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!82 &1724022297
 AudioSource:
@@ -1311,7 +1311,7 @@ MonoBehaviour:
   m_Transition: 1
   m_Colors:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 0}
-    m_HighlightedColor: {r: 0, g: 0, b: 0, a: 1}
+    m_HighlightedColor: {r: 0.735849, g: 0.735849, b: 0.735849, a: 1}
     m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
     m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
     m_ColorMultiplier: 1
@@ -1426,10 +1426,10 @@ RectTransform:
   m_Father: {fileID: 720018990}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.32339585, y: 0.4306667}
-  m_AnchorMax: {x: 0.6704792, y: 0.5833334}
-  m_AnchoredPosition: {x: 0, y: -161.95508}
-  m_SizeDelta: {x: 8.200073, y: -1.8999939}
+  m_AnchorMin: {x: 0.37420836, y: 0.28248152}
+  m_AnchorMax: {x: 0.62439585, y: 0.4306667}
+  m_AnchoredPosition: {x: 1.3800049, y: 0.55000305}
+  m_SizeDelta: {x: -0.1000061, y: 3.100006}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!82 &1739447490
 AudioSource:
@@ -1548,7 +1548,7 @@ MonoBehaviour:
   m_Transition: 1
   m_Colors:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 0}
-    m_HighlightedColor: {r: 0, g: 0, b: 0, a: 1}
+    m_HighlightedColor: {r: 0.7372549, g: 0.7372549, b: 0.7372549, a: 1}
     m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
     m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
     m_ColorMultiplier: 1
@@ -1678,7 +1678,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.754717, g: 0.754717, b: 0.754717, a: 1}
+  m_Color: {r: 0, g: 0, b: 0, a: 1}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -1757,7 +1757,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.764151, g: 0.764151, b: 0.764151, a: 1}
+  m_Color: {r: 0, g: 0, b: 0, a: 1}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:

@@ -11,9 +11,9 @@ public class SFX : MonoBehaviour
     {
         DontDestroyOnLoad(transform.gameObject);
         SFXSource = GetComponent<AudioSource>();
-        SFXvolume = 0.5f;
         if (!PlayerPrefs.HasKey("SFX"))
         {
+            SFXvolume = 0.5f;
             PlayerPrefs.SetFloat("SFX", SFXvolume); // If it’s not, then save one
         }
       SFXSource.volume = PlayerPrefs.GetFloat("SFX");

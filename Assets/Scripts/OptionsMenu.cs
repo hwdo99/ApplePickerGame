@@ -40,14 +40,4 @@ public class OptionsMenu : MonoBehaviour
         PlayerPrefs.SetFloat("SFX", volume);
         PlayerPrefs.Save();
     }
-
-    public void MuteMusic()
-    {
-        musicSource.mute = !musicSource.mute;
-    }
-
-    public void MuteSFX()
-    {
-        sfxSource.mute = !sfxSource.mute;
-    }
 }
