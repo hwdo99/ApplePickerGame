@@ -9,6 +9,8 @@ TagManager:
   - PauseMenu
   - SFX
   - Music
+  - Top10End
+  - Top10ScoresMenu
   layers:
   - Default
   - TransparentFX
