@@ -14,7 +14,8 @@ public class Music : MonoBehaviour
         if (!PlayerPrefs.HasKey("Music"))
         {
             musicVolume = 0.5f;
-            PlayerPrefs.SetFloat("Music", musicVolume); // If it’s not, then save one
+            PlayerPrefs.SetFloat("Music", musicVolume);
+            PlayerPrefs.Save();
         }
         MusicSource.volume = PlayerPrefs.GetFloat("Music");
     }
