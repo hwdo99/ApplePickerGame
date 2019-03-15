@@ -117,12 +117,14 @@ public class LivesScript : MonoBehaviour
                 PlayerPrefs.SetInt("High Score9", PlayerPrefs.GetInt("High Score8"));
                 PlayerPrefs.SetInt("High Score8", ScoreScript.currentScore);
             } 
+
             else if (ScoreScript.currentScore >= PlayerPrefs.GetInt("High Score9"))
             {
                 PlayerPrefs.SetInt("High Score9", ScoreScript.currentScore);
             }
 
             PlayerPrefs.Save();
+
             EndGameScrene();
         }
 

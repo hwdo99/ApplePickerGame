@@ -8,12 +8,7 @@ public class AppleControl : MonoBehaviour
     private float bottomOfScreen = -450;
     public Text livesText;
     public int lives = 5;
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
+  
     // Update is called once per frame
     void Update()
     {
