@@ -14,7 +14,8 @@ public class SFX : MonoBehaviour
         if (!PlayerPrefs.HasKey("SFX"))
         {
             SFXvolume = 0.5f;
-            PlayerPrefs.SetFloat("SFX", SFXvolume); // If it’s not, then save one
+            PlayerPrefs.SetFloat("SFX", SFXvolume);
+            PlayerPrefs.Save();
         }
       SFXSource.volume = PlayerPrefs.GetFloat("SFX");
     }
